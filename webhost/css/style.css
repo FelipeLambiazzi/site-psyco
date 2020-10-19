@@ -395,7 +395,8 @@ mark,
     content: "\2014 \00A0"; }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 70%;
+  margin-left: 150px;
   height: auto; }
 
 .img-thumbnail {
@@ -458,8 +459,9 @@ pre {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto; }
+  margin-right: 20px;
+  margin-left: 200px;
+  margin-top: auto; }
   @media (min-width: 576px) {
     .container {
       max-width: 540px; } }
@@ -471,7 +473,29 @@ pre {
       max-width: 960px; } }
   @media (min-width: 1200px) {
     .container {
-      max-width: 1140px; } }
+      max-width: 1540px; } }
+  @media (min-height: 100px) {
+    .container {
+      max-height: 100px; } }
+
+.container_2 {
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto; }
+      @media (min-width: 576px) {
+        .container_2 {
+          max-width: 540px; } }
+      @media (min-width: 768px) {
+        .container_2 {
+          max-width: 720px; } }
+      @media (min-width: 992px) {
+        .container_2 {
+          max-width: 960px; } }
+      @media (min-width: 1200px) {
+        .container_2 {
+          max-width: 1140px; } }      
 
 .container-fluid {
   width: 100%;
@@ -2154,7 +2178,7 @@ fieldset:disabled a.btn {
   background: -o-linear-gradient(45deg, #dc3545 0%, #f5061e 100%);
   background: -ms-linear-gradient(45deg, #dc3545 0%, #f5061e 100%);
   background: linear-gradient(45deg, #dc3545 0%, #f5061e 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dc3545', endColorstr='#f5061e', GradientType=1 ); } }
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dc3545', endColorstr='#f5061e', GradientType=1 ); } 
   .btn-danger:hover {
     color: #fff;
     background-color: #c82333;
@@ -3277,7 +3301,7 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.3125rem;
+
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
@@ -3317,7 +3341,7 @@ input[type="button"].btn-block {
   flex-grow: 1;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;}
 
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
@@ -6337,6 +6361,9 @@ button.bg-dark:focus {
 .mx-auto {
   margin-left: auto !important; }
 
+.ml-auto_logo{
+  margin-left: left }
+
 @media (min-width: 576px) {
   .m-sm-0 {
     margin: 0 !important; }
@@ -7328,7 +7355,7 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light .navbar-nav {
       padding-bottom: 20px; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-    font-size: 14px;
+    font-size: 19px;
     padding-top: .9rem;
     padding-bottom: .9rem;
     padding-left: 20px;
