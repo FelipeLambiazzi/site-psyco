@@ -1,0 +1,44 @@
+    /*
+    Flaticon3 icon font: Flaticon3
+    Creation date: 21/10/2020 18:32
+    */
+
+    @font-face {
+  font-family: "Flaticon3";
+  src: url("./Flaticon3.eot");
+  src: url("./Flaticon3.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon3.woff2") format("woff2"),
+       url("./Flaticon3.woff") format("woff"),
+       url("./Flaticon3.ttf") format("truetype"),
+       url("./Flaticon3.svg#Flaticon3") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon3";
+    src: url("./Flaticon3.svg#Flaticon3") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon3";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon3-free:before { content: "\f100"; }
+.flaticon3-prescription:before { content: "\f101"; }
+    
+    $font-Flaticon3-free: "\f100";
+    $font-Flaticon3-prescription: "\f101";
