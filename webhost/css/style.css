@@ -396,7 +396,7 @@ mark,
 
 .img-fluid {
   max-width: 70%;
-  margin-left: 150px;
+  margin-right: 50px;
   height: auto; }
 
 .img-thumbnail {
@@ -9445,4 +9445,18 @@ textarea.form-control {
   font-size: 22px;
   font-weight: 500px;
   color: yellow;
+}
+.imgprof{
+  max-width: 30%; 
+}
+.txtprof{
+  margin-left: 10px;
+  
+}
+.imggrafic{
+  max-width: 120%;
+  margin-right: 100px;
+}
+.imgchat{
+  margin-left: 160px;
 }
