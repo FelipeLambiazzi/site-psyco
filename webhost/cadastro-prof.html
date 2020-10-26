@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Kodinger" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Cadastro do profissional &mdash; Psicologo e Psiquiatra</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="css/my-login.css" />
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,,500,600,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="fonts/flaticon2/font/flaticon2.css">
+    <link rel="stylesheet" href="fonts/flaticon3/font/flaticon3.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  </head>
+  <body class="my-login-page">
+
+    <!-- Itens de Navegação -->
+	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+        <a class="navbar-brand" href="index.html"><img class="img-logo" src="images/logo.png" alt="" ></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="oi oi-menu"></span> Menu
+        </button>
+
+	      <div class="collapse navbar-collapse " id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item"><a href="index.html #Funcionalidades" class="nav-link">Funcionalidades</a></li>
+	          <li class="nav-item"><a class="nav-link" href="index.html #Indices">Saiba Mais</a></li>
+	          <li class="nav-item"><a href="index.html #Desenvolvedores" class="nav-link">Desenvolvedores</a></li>
+            <li class="nav-item"><a href="#Projeto" class="nav-link">Sobre o Projeto</a></li>
+            <li class="nav-item cta"><a href="login.html" class="nav-link"><span>Logar</span></a></li>
+	          <li class="nav-item cta"><a href="contact.html" class="nav-link"><span>Começe agora</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+
+    <!-- Background -->
+    <div class="banner-chat img" id="section-counter" style="background-image: url(images/fundoChat.jpg);">
+      <div class="row-2 align-items-center" data-scrollax-parent="true">
+        <div class="col-md-12 wrap col-sm-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+          <h1 class="mb-4 mt-5 text-center txt-banner" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Fazer Cadastro</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cadastro -->
+    <section  class="h-100">
+      <div class="container h-100">
+        <div class="row justify-content-md-center h-100">
+          <div class="card-wrapper">
+            <div class="brand">
+              <img src="images/logo2.png" alt="bootstrap 4 login page" />
+            </div>
+            <div class="card fat">
+              <div class="card-body">
+                <h4 class="card-title">Faça seu cadastro</h4>
+                <form method="POST" class="my-login-validation" novalidate="">
+                  <div class="form-group">
+                    <label for="name">Name completo</label>
+                    <input
+                      id="name"
+                      type="text"
+                      class="form-control"
+                      name="name"
+                      required
+                      autofocus
+                    />
+                    <div class="invalid-feedback">Qual o seu nome completo?</div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="crp"
+                      >CRP - N° de registro do cadastro nacional de psicologos (as)</label
+                    >
+                    <input id="crp" type="number" class="form-control" name="crp" required />
+                    <div class="invalid-feedback">Seu registro é invalido!</div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="email">E-Mail</label>
+                    <input id="email" type="email" class="form-control" name="email" required />
+                    <div class="invalid-feedback">Seu email é invalido!</div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="password">Tipo de proficional</label>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id="defaultCheck1"
+                        required=""
+                        name="agree"
+                      />
+                      <label class="form-check-label" for="defaultCheck1"> Psicologo(a). </label>
+                    </div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id="defaultCheck2"
+                        required=""
+                        name="agree"
+                      />
+                      <label class="form-check-label" for="defaultCheck2"> Psiquiatra. </label>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="semana">Escolha os dias para atender</label>
+                    <div class="form-check form-check-inline">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="inlineCheckbox1"
+                        value="opcao1"
+                        required=""
+                        name="agree"
+                      />
+                      <label class="form-check-label" for="inlineCheckbox1">seg</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="inlineCheckbox2"
+                        value="opcao2"
+                        required=""
+                        name="agree"
+                      />
+                      <label class="form-check-label" for="inlineCheckbox2">ter</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="inlineCheckbox3"
+                        value="opcao3"
+                        required=""
+                        name="agree"
+                      />
+                      <label class="form-check-label" for="inlineCheckbox3">qua</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="inlineCheckbox3"
+                        value="opcao4"
+                        required=""
+                        name="agree"
+                      />
+                      <label class="form-check-label" for="inlineCheckbox4">qui</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="inlineCheckbox3"
+                        value="opcao5"
+                        required=""
+                        name="agree"
+                      />
+                      <label class="form-check-label" for="inlineCheckbox5">sex</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="inlineCheckbox3"
+                        value="opcao6"
+                        required=""
+                        name="agree"
+                      />
+                      <label class="form-check-label" for="inlineCheckbox6">sab</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="inlineCheckbox3"
+                        value="opcao7"
+                        required=""
+                        name="agree"
+                      />
+                      <label class="form-check-label" for="inlineCheckbox7">dom</label>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="exampleFormControlFile1"
+                      >Seu Horario disponivel para atendimento</label
+                    >
+                    <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">De</span>
+                      </div>
+                      <input
+                        type="text"
+                        class="form-control"
+                        aria-label="Quantia"
+                        required=""
+                        name="agree"
+                      />
+                      <div class="input-group-append">
+                        <span class="input-group-text">Hora</span>
+                      </div>
+                      <div class="invalid-feedback">
+                        Você deve colocar um horario de inicio do seu atendimento!
+                      </div>
+                    </div>
+
+                    <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">Até</span>
+                      </div>
+                      <input
+                        type="text"
+                        class="form-control"
+                        aria-label="Quantia"
+                        required=""
+                        name="agree"
+                      />
+                      <div class="input-group-append">
+                        <span class="input-group-text">Hora</span>
+                      </div>
+                      <div class="invalid-feedback">
+                        Você deve colocar um horario de final do seu atendimento!
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="exampleFormControlFile1"
+                      >Fale um pouco sobre sua vida profissional</label
+                    >
+                    <textarea
+                      class="form-control"
+                      id="exampleFormControlTextarea1"
+                      rows="3"
+                      required=""
+                      name="agree"
+                    ></textarea>
+                    <div class="invalid-feedback">Fale um pouco sobre você!</div>
+                  </div>
+
+                    <div class="form-group">
+                      <label for="exampleFormControlFile1">Diploma e certificados
+                         <input id="arquivo" type="file" name="image[]" multiple="multiple"></label>
+                  </div>
+
+                  <div class="form-group">
+                    <div class="custom-checkbox custom-control">
+                      <input
+                        type="checkbox"
+                        name="agree"
+                        id="agree"
+                        class="custom-control-input"
+                        required=""
+                      />
+                      <label for="agree" class="custom-control-label"
+                        >Eu concordo com os <a href="#">Termos e condições</a></label
+                      >
+                      <div class="invalid-feedback">
+                        Você deve concordar com nossos Termos e Condições
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form-group m-0">
+                    <button type="submit" class="btn btn-primary btn-block">Cadastrar</button>
+                  </div>
+                  <div class="mt-4 text-center">
+                    já tem uma conta? <a href="login.html">Login</a>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="footer">Copyright &copy; 2020 &mdash; Psy.co</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/my-login.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/google-map.js"></script>
+    <script src="js/main.js"></script>
+    </script>
+  </body>
+</html>
